@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #caf0f8; 
+    color: #03045e; 
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #0077b6;
+}
+
+h1 .highlight {
+    color: #00b4d8; 
+}
+
+p {
+    color: #030341; 
+    line-height: 1.6;
+}
+
+#home {
+    background-color: #90e0ef; 
+    padding: 100px 0;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 5px solid #00b4d8; 
+}
+
+
+#about {
+    background-color: #caf0f8; 
+    padding: 100px 0;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+#skills {
+    background-color: #00b4d8; 
+    color: #f5f5f5; 
+    padding: 100px 0;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#skills ul li {
+    background-color: #0077b6; 
+    color: #f5f5f5;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+#projects {
+    background-color: #90e0ef;
+    padding: 100px 0;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-item {
+    background-color: #b4b5e4; 
+    color: #f5f5f5; 
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#contact {
+    background-color: #caf0f8;
+    padding: 100px 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid #0077b6;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #00b4d8; 
+    color: #f5f5f5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0077b6;
+}
+
+footer {
+    background-color: #0077b6; 
+    color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+}

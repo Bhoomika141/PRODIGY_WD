@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pack Your Backs - Travel Booking</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://marketplace.canva.com/EAFvvrEdW20/1/0/800w/canva-blue-and-yellow-illustrative-travel-agency-logo-d24yKGsRTBs.jpg" alt="Pack Your Backs Logo" id="logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tours">Tours</a></li>
+                <li><a href="#destination">Destination</a></li>
+                <li><a href="#deals">Deals</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#pages">Pages</a></li>
+                <li><a href="#cart"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+                <li><a href="#signin">Sign In</a></li>
+                <li>
+                    <select name="language" id="language">
+                        <option value="en">English</option>
+                    </select>
+                </li>
+                <li>
+                    <select name="currency" id="currency">
+                        <option value="usd">USD</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <h1>Millions Of Experiences. One Simple Search.</h1>
+            <p>Find what makes you happy anytime, anywhere</p>
+            <div class="search-box">
+                <input type="text" placeholder="Where To?" id="where-to">
+                <input type="date" id="when">
+                <button id="search-btn"><i class="fas fa-search"></i> Search</button>
+            </div>
+        </section>
+    </header>
+
+    <script src="script.js"></script>
+    <section class="features">
+        <div class="feature">
+            <i class="fas fa-globe-americas"></i>
+            <h3>Discover the World</h3>
+            <p>Explore thousands of attractions, destinations, and hotels with ease.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-tags"></i>
+            <h3>Exclusive Deals</h3>
+            <p>Enjoy amazing offers and earn points to save on your next adventure.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-umbrella-beach"></i>
+            <h3>Hassle-Free Booking</h3>
+            <p>Skip the lines, get easy cancellations, and enjoy stress-free travel.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-award"></i>
+            <h3>Trusted by Travelers</h3>
+            <p>Read reviews, rely on our customer support, and travel confidently.</p>
+        </div>
+    </section>
+    
+    <section class="destinations" id="top-destinations">
+        <h2>Top Destination For Your Next Vacation</h2>
+        <div class="destination-slider">
+            <div class="destination-card">
+                <img src="https://thumbs.dreamstime.com/b/mysore-palace-historical-palace-mysore-palace-historical-palace-royal-residence-mysore-indian-state-138092164.jpg" alt="Karnataka">
+                <h3>Karnataka</h3>
+            </div>
+            <div class="destination-card">
+                <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/08/21104741/Tourist-Places-in-Kashmir-feature-compressed.jpg" alt="Kashmir">
+                <h3>Kashmir</h3>
+            </div>
+            <div class="destination-card">
+                <img src="https://www.holidify.com/images/cmsuploads/compressed/Shanti_Stupa,_Leh,_Ladakh_20180305180249.jpg" alt="Ladakh">
+                <h3>Ladakh</h3>
+            </div>
+            <div class="destination-card">
+                <img src="https://www.planetware.com/photos-large/F/france-paris-eiffel-tower.jpg" alt="Paris">
+                <h3>Paris</h3>
+            </div>
+        </div>
+        <div class="see-all">
+            <a href="#">See All Destinations</a>
+        </div>
+    </section>
+    <section class="trip-ideas">
+        <h2>Trip Ideas To Inspire You</h2>
+        <div class="trip-cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1549221360-456a9c197d5b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YnVuZ2VlJTIwanVtcHxlbnwwfHwwfHx8MA%3D%3D" alt="South Bali" class="card-img">
+                <div class="card-content">
+                    <h3>South Bali (Kuta, Canggu, Uluwatu, Jimbaran)</h3>
+                    <p>Travel hassle-free within Bali, visit popular attractions, or do water activities!</p>
+                    <a href="#" class="btn">See All Activities</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1682687982502-1529b3b33f85?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2N1YmElMjBkaXZpbmd8ZW58MHx8MHx8fDA%3D" alt="Beyond the City" class="card-img">
+                <div class="card-content">
+                    <h3>Beyond the City</h3>
+                    <p>Discover the wonders that lie outside the walls of Da Nang with these exciting tours of surrounding areas.</p>
+                    <a href="#" class="btn">See All Activities</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="subscribe-section">
+        <div class="content-wrapper">
+            <div class="subscribe-text">
+                <h1>Subscribe & Get 20% off</h1>
+                <p>Join our newsletter and discover new destinations to inspire the traveler within. Get 20% off at our online shop, along with expert advice, tips, and exclusive offers.</p>
+                <form action="#" method="POST" class="subscribe-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn">Sign Up</button>
+                </form>
+            </div>
+            <div class="subscribe-image">
+                <img src="https://img.freepik.com/free-photo/happy-teen-girl-standing-smiling_155003-9786.jpg?size=626&ext=jpg&ga=GA1.1.2113030492.1720310400&semt=ais_user" alt="Happy Traveler">
+            </div>
+        </div>
+    </section>
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h2>Travel</h2>
+            <p>Don't just get there, get there in style.</p>
+            <p>1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+            <p>(308) 555-0121</p>
+            <p>hello@travelwp.com</p>
+        </div>
+        <div class="footer-section">
+            <h3>Top Destination</h3>
+            <ul>
+                <li>Karnataka</li>
+                <li>Kashmir</li>
+                <li>Paris</li>
+                <li>Amsterdam</li>
+                <li>San Francisco</li>
+                <li>London</li>
+                <li>More Destinations</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Information</h3>
+            <ul>
+                <li>Help & FAQs</li>
+                <li>Press Centre</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+                <li>Privacy Policy</li>
+                <li>Site Map</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <h3>Payment Channels</h3>
+            <div class="payment-icons">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-paypal"></i>
+                <i class="fab fa-cc-amex"></i>
+                <i class="fab fa-cc-apple-pay"></i>
+                <i class="fab fa-cc-google-pay"></i>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    
+</body>
+</html>
